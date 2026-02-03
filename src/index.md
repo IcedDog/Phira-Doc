@@ -5,7 +5,6 @@ layout: home
 hero:
   name: Phira
   text: Phigros 二创社区
-  # tagline: 
   actions:
     - theme: brand
       text: 说明
@@ -19,20 +18,84 @@ hero:
   image:
       src: /favicon.png
       alt: Phira
-      
 
-# features:
-#   - icon: 💖
-#     title: 针对性的适配
-#     details: 相对于 Onebot 协议，对 Napcat 有独特的适配处理
-#   - icon: 🚀
-#     title: 便于维护
-#     details: 无需理解繁琐代码，支持使用“Guoba-Plugin” + “napcat-webui” 在网页就可快速操作配置信息
-#   - icon: ✅
-#     title: Miao-Yunzai 可用
-#     details: 连接Napcat不再是TRSS-Yunzai的专利，兼容性甚至更强
+features:
+  - icon: 🎮
+    title: 谱面制作
+    details: 完整的谱面标准文档，支持 RPE、PE、Official 等多种格式
+  - icon: 📚
+    title: 详细文档
+    details: 从入门到精通，涵盖所有模块和功能的完整指南
+  - icon: 🛠️
+    title: 构建指南
+    details: Windows、Linux、Android 多平台编译指南，助你快速上手
 
 ---
+
+<style>
+.VPHero {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 50vh !important;
+  flex-direction: row !important;
+}
+
+.VPHero .container {
+  display: flex !important;
+  flex-direction: row !important;
+  width: 100% !important;
+  gap: 2rem !important;
+  align-items: center !important;
+}
+
+.VPHero .main {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+}
+
+.VPHero .main .heading {
+  transform: none !important;
+}
+
+.VPHero .main .actions {
+  margin-top: 1.5rem !important;
+}
+
+.VPHero .image {
+  flex: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transform: none !important;
+}
+
+.VPHero .image img {
+  max-width: 300px !important;
+  border-radius: 12px !important;
+}
+
+@media (max-width: 768px) {
+  .VPHero .container {
+    flex-direction: column !important;
+  }
+
+  .VPHero .main {
+    align-items: center !important;
+  }
+
+  .VPHero .image {
+    order: -1 !important;
+  }
+
+  .VPHero .image img {
+    max-width: 200px !important;
+  }
+}
+</style>
 
 
 注：本文档基于 https://teamflos.github.io/phira-docs/ 搬来并二次编写

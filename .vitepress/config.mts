@@ -82,6 +82,10 @@ export default defineConfig({
         link: '/respack/'
       },
       {
+        text: '基础帮助文档',
+        link: '/help/'
+      },
+      {
         text: '谱面标准',
         link: '/chart-standard/',
         items: [
@@ -235,6 +239,9 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '教程', link: '/mp_build_guide/' },
+          { text: 'Termux（安卓）', link: '/mp_build_guide/Termux' },
+          { text: 'Windows', link: '/mp_build_guide/Windows' },
+          { text: 'Linux', link: '/mp_build_guide/Linux' },
         ]
       },
       {
