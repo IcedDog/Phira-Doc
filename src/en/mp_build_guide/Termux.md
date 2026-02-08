@@ -34,4 +34,4 @@
 2. Build can take a long time; ensure a stable network.
 3. For doc errors, contact @Dmocken in the [Phira QQ channel](https://pd.qq.com/s/ezgv3q71g) or use [Feedback](https://phira.dmocken.top/report).
 
-[Phira FAQ (updated regularly)](/help/)
+[Phira FAQ (updated regularly)](/en/help/)

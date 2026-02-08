@@ -115,4 +115,4 @@ ps -aux | grep phira-mp-server
 netstat -tuln | grep 12346
 ```
 
-![result](https://i.imgur.com/NXC54ZZ.png)
+![result](/assets/img/mp_build_guide/302049639-bb25398b-75af-47c3-8ba4-e609be26177b.png)
