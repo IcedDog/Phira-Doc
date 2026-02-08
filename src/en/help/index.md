@@ -63,9 +63,9 @@ If the link in the email doesn’t open, replace `api.phira.cn` at the start of 
 - Third-party monitoring for multiplayer servers: [Status page](https://status.dmocken.top).
 - We support and recommend self-hosted multiplayer servers: [phira-mp on GitHub](https://github.com/TeamFlos/phira-mp).
 - Pre-built server files: [Multiplayer server](https://phira.dmocken.top/mulity).
-- [Android: Phira multiplayer server (Termux)](/mp_build_guide/Termux)
-- [Windows: Phira multiplayer server](/mp_build_guide/Windows)
-- [Linux server deployment](/mp_build_guide/Linux)
+- [Android: Phira multiplayer server (Termux)](/en/mp_build_guide/Termux)
+- [Windows: Phira multiplayer server](/en/mp_build_guide/Windows)
+- [Linux server deployment](/en/mp_build_guide/Linux)
 
 ### Touch / input issues
 

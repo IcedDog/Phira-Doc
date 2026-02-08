@@ -14,7 +14,11 @@
     - 如果您无法连接到 github，您也可以去 [缓存站](https://www.nuanr-mxi.com/msys.exe) 下载 MSYS2， __注意，缓存站只能保证您可以下载，不能高速下载，也不一定是最新版。__
 4. 打开命令提示符（cmd）或 PowerShell，输入 `cargo -V` 检查是否成功安装，若返回版本号则安装成功，若出现其他提示，请见 Windows 常见问题。
 5. 按下图所示，修改环境变量
-![sys_path_I](./sys_path_I.png) ![sys_path_II](./sys_path_II.png) ![sys_path_III](./sys_path_III.png) ![sys_path_IV](./sys_path_IV.png) ![sys_path_V](./sys_path_V.png)
+![sys_path_I](/assets/img/phira_build_guide/sys_path_I.png)
+![sys_path_II](/assets/img/phira_build_guide/sys_path_II.png)
+![sys_path_III](/assets/img/phira_build_guide/sys_path_III.png)
+![sys_path_IV](/assets/img/phira_build_guide/sys_path_IV.png)
+![sys_path_V](/assets/img/phira_build_guide/sys_path_V.png)
 1. 打开命令提示符（cmd）或 PowerShell，输入 `gcc -v` 检查是否成功安装，若返回版本号则安装成功，若出现其他提示，请见 Windows 常见问题。
 
 ### Windows 常见问题

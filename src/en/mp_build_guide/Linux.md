@@ -56,3 +56,5 @@ Check process and port:
 ps -aux | grep phira-mp-server
 netstat -tuln | grep 12346
 ```
+
+![result](/assets/img/mp_build_guide/302049639-bb25398b-75af-47c3-8ba4-e609be26177b.png)

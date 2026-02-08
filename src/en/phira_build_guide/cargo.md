@@ -13,8 +13,13 @@
    ```
    - If you cannot reach GitHub, you can try a [mirror](https://www.nuanr-mxi.com/msys.exe) for MSYS2 (mirror may be slower and not latest).
 4. In cmd or PowerShell, run `cargo -V` to confirm. If you see a version, installation succeeded; otherwise see Windows FAQ.
-5. Add the required paths to your system PATH (see the images in the source: sys_path_I through sys_path_V).
-6. Run `gcc -v` to confirm GCC; if not, see Windows FAQ.
+5. Add the required paths to your system PATH
+![sys_path_I](/assets/img/phira_build_guide/sys_path_I.png)
+![sys_path_II](/assets/img/phira_build_guide/sys_path_II.png)
+![sys_path_III](/assets/img/phira_build_guide/sys_path_III.png)
+![sys_path_IV](/assets/img/phira_build_guide/sys_path_IV.png)
+![sys_path_V](/assets/img/phira_build_guide/sys_path_V.png)
+1. Run `gcc -v` to confirm GCC; if not, see Windows FAQ.
 
 ### Windows FAQ
 
